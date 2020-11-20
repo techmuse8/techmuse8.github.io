@@ -2,7 +2,7 @@ name: ci to static html
 on:
   push:
     branches:
-      - gh-pages
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
