@@ -1,4 +1,4 @@
-name: ci to static html
+name: ci to static html #2 edition
 on:
   push:
     branches:
