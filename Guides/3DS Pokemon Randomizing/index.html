@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>3DS Pokemon Randomizing - techmuse's site</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">techmuse's site</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Overview</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../Plugs/" class="nav-link">Plugs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../tech/" class="nav-link">Tech Page</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Guides <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">3DS Pokemon Randomizing</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../tech/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#3ds-pokemon-randomizing" class="nav-link">3DS Pokemon Randomizing</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#introduction" class="nav-link">Introduction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#section-i-dumping-the-game" class="nav-link">Section I - Dumping the game</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#section-ii-dumping-the-update" class="nav-link">Section II - Dumping the update</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#section-iii-randomizing-the-game" class="nav-link">Section III - Randomizing the game</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#section-iv-applying-the-randomizer-patch" class="nav-link">Section IV - Applying the randomizer patch</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="3ds-pokemon-randomizing">3DS Pokemon Randomizing</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This guide will show you how to randomize 3DS Pokemon games that works
+on macOS, Windows and Linux using LayeredFS so you won't have to rebuild
+the game entirely as a CIA.</p>
+<p>What you need:</p>
+<p>On your PC/Mac:</p>
+<ul>
+<li>
+<p>The latest version of
+    <a href="https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases">UPRZX</a></p>
+</li>
+<li>
+<p>The latest version of <a href="https://www.java.com/en/download/">Java</a></p>
+</li>
+</ul>
+<p>On your 3DS:</p>
+<ul>
+<li>
+<p>Custom Firmware (see <a href="https://3ds.hacks.guide">3ds.hacks.guide</a> if
+    you don't already)</p>
+</li>
+<li>
+<p>The latest version of
+    <a href="https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1">GodMode9</a></p>
+</li>
+</ul>
+<h2 id="section-i-dumping-the-game">Section I - Dumping the game</h2>
+<p>If you have a physical copy:</p>
+<p>​1. Power on your 3DS while holding Start to boot into GodMode9</p>
+<p>​2. Insert the gamecard of the game you want to randomize</p>
+<p>​3. Navigate to [C:] GAMECART</p>
+<p><img alt="title" src="../Images/gamecarddump.png" /></p>
+<p>​4. Select <code>[titleid]_v##.3ds</code>, then select "Copy to 0:/gm9/out"</p>
+<p><img alt="title" src="../Images/gamecardgm9cpy.png" /></p>
+<ul>
+<li>This process will take some time to finish</li>
+</ul>
+<p>Your dump will be in /gm9/out on your SD Card as <code>[titleid]_v##.3ds</code></p>
+<p>If you have a digital copy:</p>
+<p>​1. Power on your 3DS while holding Start to boot into GodMode9</p>
+<p>​2. Highlight [A:] SYSNAND SD, then Press R+A to open the drive options,
+then select "Search for titles" <img alt="title" src="../Images/digitaldump.png" /></p>
+<p>​3. Press A to go to the title list</p>
+<p>​4. Select your game from the title list, select "TMD file options...",
+then select "Dump CXI/NDS file" <img alt="title" src="../Images/titlelistbase.png" />
+<img alt="title" src="../Images/digitalcxi.png" /></p>
+<ul>
+<li>This process will take some time to finish</li>
+</ul>
+<p>Your dump will be in /gm9/out on your SD Card as
+<code>[titleid] TitleName (ProductCode) (Region).cxi</code></p>
+<h2 id="section-ii-dumping-the-update">Section II - Dumping the update</h2>
+<p>​1. Repeat steps 2-3 of the digital dumping guide from Section I</p>
+<p>​2. Select the update title for your game starting with the title ID
+"0004000E"</p>
+<p>3. Select "TMD file options...", then select "Build CIA (standard)"
+<img alt="title" src="../Images/updtmd.png" /> <img alt="title" src="../Images/updcia.png" /></p>
+<ul>
+<li>This will also take some time to finish</li>
+</ul>
+<p>Your update dump will be in /gm9/out on your SD Card as
+<code>[titleid] TitleName (ProductCode) (Region).cia</code></p>
+<h2 id="section-iii-randomizing-the-game">Section III - Randomizing the game</h2>
+<ol>
+<li>Power off your 3DS and insert your SD Card into your Mac/PC</li>
+</ol>
+<p>​2. Copy the .3ds (.cxi if you did a digital dump) of your dump and the
+.cia update dump to a folder on your computer
+<img alt="title" src="../Images/copydump.PNG" /></p>
+<p>​3. Launch "launcher.jar", select "Open ROM", then navigate to where
+you placed your game dump</p>
+<p>​4. Select Settings, then select "Load Game Update", then select where
+you placed your update dump</p>
+<p>​5. Select your options and when you are finished, click "Randomize
+(Save)", then save the folder to somewhere on your computer</p>
+<p>​6. Copy the Title ID folder of the randomized game to luma/titles on
+your SD Card <img alt="title" src="../Images/layeredfs.PNG" /></p>
+<h2 id="section-iv-applying-the-randomizer-patch">Section IV - Applying the randomizer patch</h2>
+<p>​1. Take the SD Card out of your computer and put it into your 3DS</p>
+<p>​2. Power on your 3DS while holding Select to boot into the Luma
+configuration menu and enable "Enable Game Patching" if its not already.</p>
+<p>Now when you launch your game, it should be randomized if you did
+everything correctly!</p>
+<p>Credits to Ajarmar for this fork from the regular UPGR. If you deserved
+to be mentioned here open a PR. <img alt="title" src="../Images/randomizes.gif" /></p>
+<hr />
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
