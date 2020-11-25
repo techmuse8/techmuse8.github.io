@@ -15,4 +15,5 @@ jobs:
       - run: cd techmuse8.github.io
       - run: ls
       - run: pip install mkdocs-material
+      - run: pip install mkdocs-rss-plugin
       - run: mkdocs gh-deploy --force
