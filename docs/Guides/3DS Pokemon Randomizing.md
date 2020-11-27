@@ -90,7 +90,7 @@ Section III - Randomizing the game
 .cia update dump to a folder on your computer
 ![title](../Images/copydump.PNG)
 
-​3. Launch "PokeRandoZX.jar", select "Open ROM", then navigate to where
+​3. Launch `launcher.jar`, select "Open ROM", then navigate to where
 you placed your game dump
 
 ​4. Select Settings, then select "Load Game Update", then select where
