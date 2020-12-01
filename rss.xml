@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>News - techmuse's site</title>
+		<description>News - techmuse's site</description>
+		<pubDate>Tue, 01 Dec 2020 22:57:50 +0000</pubDate>
+		<link>https://techmuse8.github.io/News/</link>
+		<image>
+			<link>https://techmuse8.github.io/News/</link>
+			<url>https://www.google.com/s2/favicons?domain=https://techmuse8.github.io</url>
+			<title>News - techmuse's site</title>
+		</image>
+
+		<item>
+			<title>News First one</title>
+			<link>https://techmuse8.github.io/News/</link>
+			<description><![CDATA[<h1 id="news">News</h1><h1 id="first-one">First one</h1>
+
+			<pubDate>Tue, 01 Dec 2020 22:57:38 +0000</pubDate>
+			<guid>https://techmuse8.github.io/News/</guid>
+		</item>
+
+	</channel>
+</rss>
