@@ -99,7 +99,7 @@ you placed your update dump
 ​5. Select your options and when you are finished, click "Randomize
 (Save)", then save the folder to somewhere on your computer
 
-​6. Copy the Title ID folder of the randomized game to luma/titles on
+​6. Copy the Title ID folder of the randomized game to /luma/titles on
 your SD Card ![title](../Images/layeredfs.PNG)
 
 Section IV - Applying the randomizer patch
@@ -108,7 +108,7 @@ Section IV - Applying the randomizer patch
 ​1. Take the SD Card out of your computer and put it into your 3DS
 
 ​2. Power on your 3DS while holding Select to boot into the Luma
-configuration menu and enable "Enable Game Patching" if its not already.
+configuration menu and enable `Enable Game Patching` if its not already.
 
 Now when you launch your game, it should be randomized if you did
 everything correctly!
