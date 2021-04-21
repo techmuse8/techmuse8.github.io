@@ -10,7 +10,9 @@ If theres anything bugged open an issue [here](https://github.com/techmuse8/tech
 
 Thank you for reading this and I will see you in the next one.
 
-
+<meta property="og:title" content="techmuse's website">
+<meta property="og:description" content="WIP :)">
+<meta property="og:image" content="https://techmuse8.github.io/Misc/IMG/CurrentTMPFP.png">
 
 
 
