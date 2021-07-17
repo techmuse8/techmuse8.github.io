@@ -7,6 +7,7 @@ As you can see, I recently converted it to MarkDown to make it look nicer! If th
 This site is in okish stages so if you would like to request something open a PR [here](https://github.com/techmuse8/techmuse8.github.io/pulls).
 
 If theres anything bugged open an issue [here](https://github.com/techmuse8/techmuse8.github.io/issues).
+Check my stuff [here](https://techmuse8.github.io/Misc/Plugs/)
 
 Thank you for reading this and I will see you in the next one.
 
