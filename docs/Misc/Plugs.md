@@ -11,9 +11,9 @@ Follow me on Twitch.
 
   new Twitch.Embed("twitch-embed", {
 
-    width: "1280",
+    width: "640",
 
-    height: "720",
+    height: "480",
 
     channel: "techmuse",
 
@@ -26,3 +26,7 @@ Follow me on Twitch.
 Follow me on Twitter.
 
 <a class="twitter-timeline" data-width="450" data-height="450" href="https://twitter.com/techmuse196?ref_src=twsrc%5Etfw">Tweets by techmuse196</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Check my RiiTag to see some games I play.
+
+<a href="https://tag.rc24.xyz/334102523365425163"><img src="https://tag.rc24.xyz/334102523365425163/tag.png" alt="RiiTag" /></a>
