@@ -8,7 +8,7 @@ This site is in okish stages so if you would like to request something open a PR
 
 If theres anything bugged open an issue [here](https://github.com/techmuse8/techmuse8.github.io/issues).
 
-Check my socials [here].(https://techmuse8.github.io/Misc/Plugs/)
+Check my socials [here](https://techmuse8.github.io/Misc/Plugs/).
 
 Thank you for reading this and I will see you in the next one.
 
