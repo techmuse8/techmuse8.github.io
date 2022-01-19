@@ -11,6 +11,7 @@ See you in the next one! (Hopefully)
 So apparently, the images on my guide for randomization aren't embedding.
 I also need to update it so it's unavailable for a while.
 
+# Removed Guides
 
-
+Decided to remove the 3DS Pokemon Randomization guides. Probably unlikely that I may revisit it.
 
