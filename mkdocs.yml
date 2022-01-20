@@ -1,1 +1,20 @@
 site_name: techmuse's site
+theme:
+  name: material
+  features:
+    - navigation.top
+    - toc.integrate
+    - navigation.tabs
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode

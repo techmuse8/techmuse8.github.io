@@ -1,7 +1,8 @@
 # Plugs
+## YouTube Channel
 Subscribe to my Youtube Channel if you haven't already.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_yeUjL2R-Bo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+## Twitch Channel
 Follow me on Twitch.
 <div id="twitch-embed"></div>
 
@@ -22,10 +23,10 @@ Follow me on Twitch.
   });
 
 </script>
-
+## Twitter
 Follow me on Twitter.
 
-<a class="twitter-timeline" data-width="450" data-height="450" href="https://twitter.com/techmuse196?ref_src=twsrc%5Etfw">Tweets by techmuse196</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="450" data-height="450" href="https://twitter.com/techmuse8?ref_src=twsrc%5Etfw">Tweets by techmuse8</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Check my RiiTag to see some games I play.
 
