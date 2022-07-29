@@ -1,4 +1,9 @@
 # Plugs
+
+## Discord Server
+Join my Discord server.
+<iframe src="https://ptb.discord.com/widget?id=1000865896400703548&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 ## YouTube Channel
 Subscribe to my Youtube Channel if you haven't already.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_yeUjL2R-Bo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
